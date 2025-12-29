@@ -1,9 +1,14 @@
 # PR Reviewer Skill for Claude Code
 
-Comprehensive GitHub Pull Request code review skill that automates data collection, analyzes against industry-standard criteria, and generates structured review files with an approval workflow.
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude-Code-5A67D8)](https://claude.ai/code)
+[![Skilz Marketplace](https://img.shields.io/badge/Skilz-Marketplace-00C7B7)](https://skillzwave.ai/skill/SpillwaveSolutions__pr-reviewer-skill__pr-reviewer__SKILL/)
+
+Comprehensive GitHub Pull Request code review skill that automates data collection, analyzes against industry-standard criteria, and generates structured review files with an approval workflow.
+
+## Overview
+
+PR Reviewer is a Claude Code skill that transforms your code review process. It automatically fetches all PR data using GitHub CLI, applies systematic analysis against industry-standard review criteria, and generates professional review documents ready for posting. The two-stage approval workflow ensures nothing is posted until you explicitly approve.
 
 ## Features
 
@@ -16,6 +21,22 @@ Comprehensive GitHub Pull Request code review skill that automates data collecti
 - **Professional Templates** - Clean, respectful review format without emojis or excessive formatting
 
 ## Installation
+
+### Installing with Skilz (Recommended)
+
+The easiest way to install this skill is using the [Skilz Universal Installer](https://github.com/SpillwaveSolutions/skilz):
+
+```bash
+# Install Skilz (one-time setup)
+curl -fsSL https://raw.githubusercontent.com/SpillwaveSolutions/skilz/main/install.sh | bash
+
+# Install this skill
+skilz install SpillwaveSolutions_pr-reviewer-skill/pr-reviewer
+```
+
+View on the Skilz Marketplace: [pr-reviewer](https://skillzwave.ai/skill/SpillwaveSolutions__pr-reviewer-skill__pr-reviewer__SKILL/)
+
+### Manual Installation
 
 1. **Install GitHub CLI** (if not already installed):
    ```bash
@@ -404,4 +425,4 @@ For issues, questions, or suggestions:
 
 ---
 
-**Made with ❤️ for better code reviews**
+**Made with care for better code reviews**
